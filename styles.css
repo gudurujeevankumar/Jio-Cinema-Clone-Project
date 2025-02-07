@@ -1,0 +1,221 @@
+html, body {
+    overflow-x: hidden; /* Prevent horizontal scrolling */
+    width: 100%; /* Ensure content fits within the viewport width */
+    margin: 0% !important;
+    margin-left: 20px !important;
+}
+
+body 
+{
+    padding-top: 70px;
+    font-family: Arial, sans-serif;
+    background-color: black;
+    margin: 25px;
+}
+
+header
+{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+    display: flex;
+    height: 70px;
+    background-color: black;
+    border-bottom: gray 0.1px solid;
+    padding-left: 15px;
+}
+
+/* Jio Cinema Img */
+header img
+{
+    width: 35px;
+    height: 35px;
+    margin-left: 10px;
+    margin-top: 18px;
+    border-radius: 40px;
+}
+
+/* Jio Cinema Text */
+header h1
+{
+    color: white;
+    margin-left: 5px;
+    font-size: 20px;
+    margin-top: 25px;
+}
+
+.bottomheader
+{
+    position: fixed;
+    top: 70px; /* Adjust based on header height */
+    width: 100%;
+    z-index: 999;
+    display: flex;
+    background-color: black;
+    padding: 30x 0; 
+    padding-left: 15px;
+}
+
+.bottomheader li
+{
+    background-color: #373737;
+    padding: 2px;
+    border: 0.1px solid #373737;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+.bottomheader li button
+{
+    background-color: #373737;
+    color: white;
+}
+
+.bottomheader li button:hover , .bottomheader li :hover
+{
+    background-color: gray;
+    border: 0.1px solid gray;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+
+/*  First sliding content */
+.rollingcontent img
+{
+    margin-top: 60px;
+    margin-left: 20px;
+    width: 95%;
+    height: 600px;
+    border: 1px solid white;
+    border-radius: 20px;
+
+}
+
+/* Channel Images  */
+.content3 img
+{
+    cursor: pointer;
+    width: 120px;
+    height: 120px;
+    border-radius: 20px;
+    margin-top: 10px;
+    margin-left: 2px;
+}
+
+
+/* # Go Premium */
+h2
+{
+    color: #c9af78;
+    font-size: 12px;
+    margin-top: 20px;
+    margin-left: 10px;
+    border: 2px solid #c9af78;
+    border-radius: 20px;
+    padding: 6px 15px;
+}
+
+button 
+{
+    font-size: 14px;
+    background-color: black;
+    border: none;
+    size: 50px;
+    color: gray;
+    position: relative
+}
+
+
+ul
+{
+    align-items: center;
+    margin-left: 1px;
+    font-size: 15px;
+    margin-top: 20px;
+    display: flex;
+    column-gap: 20px;
+    list-style-type: none;
+}
+
+ul :hover
+{
+    color: white;
+    cursor: pointer;
+
+}
+
+body 
+{
+    color: white;
+}
+
+input
+{
+    width: 300px;
+    font-size: 15px;
+    background-color: #3e3837;
+    margin-left: 300px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    border-radius: 20px;
+    border: none;
+}
+
+
+.HRN {
+    display: flex; 
+}
+
+.HRNimg
+{
+    display: flex;
+    width: 300px;
+    height: 300px;
+    border-radius: 10px;
+    column-gap: 20px;
+}
+
+.HRN h1
+{
+    font-size: 20px;
+}
+
+/* Fresh Episodes */
+
+.FE
+{
+    display: flex;
+}
+
+.FE h1
+{
+    margin-top: 10px;;
+    font-size: 20px;
+}
+
+.FE img
+{
+    width: 220px;
+    height: 290px;
+    border-radius: 10px;
+    
+}
+
+.FE li,ul
+{
+    font-size: 12px;
+    color: gray;
+    padding: 10px;
+    margin-bottom: 10px;
+    margin-left: 0%;
+}
+
+.FE li:hover
+{
+    background-color: gray;
+    cursor: pointer;
+    border: 1px solid gray;
+    border-radius: 20px;
+}
