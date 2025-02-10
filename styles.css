@@ -1,8 +1,7 @@
 html, body {
     overflow-x: hidden; /* Prevent horizontal scrolling */
     width: 100%; /* Ensure content fits within the viewport width */
-    margin: 0% !important;
-    margin-left: 20px !important;
+    margin: 1% !important;
 }
 
 body 
@@ -10,7 +9,8 @@ body
     padding-top: 70px;
     font-family: Arial, sans-serif;
     background-color: black;
-    margin: 25px;
+    margin-left: 1% ;
+
 }
 
 header
@@ -49,7 +49,7 @@ header h1
 {
     position: fixed;
     top: 70px; /* Adjust based on header height */
-    width: 100%;
+    width: 100% !important;
     z-index: 999;
     display: flex;
     background-color: black;
@@ -84,7 +84,7 @@ header h1
 /*  First sliding content */
 .rollingcontent img
 {
-    margin-top: 60px;
+    margin-top: 70px;
     margin-left: 20px;
     width: 95%;
     height: 600px;
@@ -187,15 +187,16 @@ input
 .FE
 {
     display: flex;
+    margin-top: 20px;
 }
 
-.FE h1
+.FE h1, .TP4U h1 , .TC h1 , .TSP h1 
 {
     margin-top: 10px;;
     font-size: 20px;
 }
 
-.FE img
+.FE img , .TC img , .TSP img
 {
     width: 220px;
     height: 290px;
@@ -218,4 +219,111 @@ input
     cursor: pointer;
     border: 1px solid gray;
     border-radius: 20px;
+}
+
+.TP4U
+{
+    
+    margin-top: 20px;
+}
+
+.TP4U img
+{
+    width: 220px;
+    height: 290px;
+    border-radius: 10px;
+}
+
+footer {
+    display: flex;
+    flex-direction: column; /* Change to column to stack the blocks */
+    background-color: #17181a;
+    height: 250px; /* Change to auto to fit content */
+    width: 100%;
+    margin-top: 30px;
+    padding: 20px;
+    justify-content: flex-start; /* Align content to the left */
+    border-top: 1px solid #202123; /* Add border line on top */
+}
+
+.footercontent {
+    display: flex;
+    width: auto; /* Adjust width to fit content */
+    justify-content: flex-start; /* Align content to the left */
+    gap: 30px; /* Add some gap between the blocks */
+}
+
+.footerblock {
+    width: 300px; /* Adjust width to fit content */
+}
+
+footer h1 {
+    color: white;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+footer ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+footer ul li {
+    color: gray;
+    margin: 5px 0;
+}
+
+footer ul li h1 {
+    color: white;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+footer ul li strong {
+    color: #d8d6e5;
+    cursor: pointer;
+    font-size: 15px;
+}
+
+footer ul li strong:hover {
+    text-decoration: underline;   
+}
+
+footer ul li[style*="display: flex;"] {
+    display: flex;
+    gap: 10px;
+}
+
+footer img {
+    border-radius: 10px;
+}
+
+.bottom-footer
+{
+    display: flex;
+    background-color: #202123;
+    width: 100%;
+    padding: 10px 20px;
+    margin-left: 0% !important;
+    border-top: 1px solid rgb(73, 73, 73);
+    margin-top: 30px;
+    
+
+}
+
+.bottom-footer img
+{
+   margin-left: 900px;
+   height : 60px;
+    width: 50px;
+}
+
+.bottom-footer p
+{
+    font-size: 12px;
+    color: #ffffff;
+    align-self: center;
 }
