@@ -49,7 +49,7 @@ This project marks the beginning of my **web development journey** and is very c
 
 ## 📸 Screenshots
 
-! [Home Page](Jio Cinema Clone 1.png)
+! [Home Page]([Jio Cinema Clone 1.png](https://github.com/gudurujeevankumar/Jio-Cinema-Clone-Project/blob/main/Jio%20Cinema%20Clone%201.png))
 
 ---
 
