@@ -2,10 +2,9 @@
 
 This is my **very first website project** – a simple **JioCinema clone** built using **HTML** and **CSS**.  
 I started building this without knowing anything about web development — no HTML, no CSS — just pure curiosity and a desire to learn.
+This project marks the beginning of my **web development journey** and is very close to my heart. 💖
 
 <img width="1440" alt="Jio Cinema Clone 1" src="https://github.com/user-attachments/assets/920ddbaa-0518-43a3-8566-14c167ac0f02" />
-
-This project marks the beginning of my **web development journey** and is very close to my heart. 💖
 
 🌐 **Live Site**: [jiocinemafrontendbygudurujeevankumar.netlify.app](https://jiocinemafrontendbygudurujeevankumar.netlify.app)  
 📁 **GitHub Repo**: [Jio-Cinema-Clone-Project](https://github.com/gudurujeevankumar/Jio-Cinema-Clone-Project)
